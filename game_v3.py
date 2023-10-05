@@ -34,7 +34,7 @@ def score_game(random_predict) -> int:
         count_ls.append(random_predict(number))
 
     score = int(np.mean(count_ls))
-    print(f"Мой алгоритм угадывает число в среднем за {score} попыток")
+    print(f"Мой алгоритм угадывает число в среднем за {score} попыток(-ки)")
 
 
 print('Run benchmarking for game_core_v3: ', end='')
